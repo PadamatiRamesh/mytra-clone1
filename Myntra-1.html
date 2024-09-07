@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUQIvZ9KyjWTMMyWeSHcPfz0Mb9qH4HGsNcw&usqp=CAU" sizes="64x64"/>
+  <title>Online Shopping for Men, Women, Kids Fashion & Lifestyle</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+    html, body {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      background: rgb(147, 222, 131);
+      height: 66px;
+      box-shadow: rgba(7, 7, 7, 0.15) 1.95px 1.95px 2.6px;
+    }
+
+    .rightBox {
+      display: flex;
+      margin: 12px;
+    }
+
+    .left img {
+      width: 55px;
+      height: 40px;
+    }
+
+    .container {
+      padding: 0 10vw;
+    }
+
+    .containerHeader {
+      padding: 0 10vw;
+    }
+
+    nav {
+      font-size: 12px;
+      padding-top: 14px;
+    }
+
+    nav ul li {
+      list-style: none;
+      padding: 0 12px;
+    }
+
+    .section1 {
+      background: #f2f2f2;
+    }
+
+    .search {
+      width: 34vw;
+      padding: 7px 17px;
+      border: 0.5px solid grey;
+      background: #f7f8fd;
+      border-radius: 5px;
+    }
+
+    .homeImg {
+      width: 80vw;
+      margin: 12px 0;
+    }
+
+    .itemImg {
+      width: 10vw;
+      margin: 6px 12px;
+    }
+
+    footer {
+      padding: 23px;
+      text-align: center;
+      box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    }
+
+    .tall {
+      min-height: 40vh;
+    }
+
+    @media (max-width: 450px) {
+      .search {
+        width: 72vw;
+      }
+    }
+
+    @media (max-width: 1550px) {
+      nav ul li {
+        list-style: none;
+        padding: 0 4px;
+        font-size: 10px;
+      }
+
+      .containerHeader {
+        padding: 0 2vw;
+      }
+
+      header {
+        height: 122px;
+      }
+
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .right {
+        flex-direction: column;
+      }
+
+      .rightBox {
+        display: flex;
+        margin: 12px;
+      }
+    }
+
+    .top {
+      height: 40px;
+      background-color: #d3b315;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+
+    .top a {
+      color: white;
+      font-size: 14px;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .customer-footer {
+      background-color: #2569bd;
+      height: 400px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    .cust-first {
+      color: white;
+      font-size: 16px;
+      font-weight: 700;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-bottom: 15px;
+    }
+
+    .cust-Second {
+      color: white;
+      font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-bottom: 10px;
+    }
+
+    .flex {
+      display: flex;
+    }
+
+    .items-center {
+      align-items: center;
+    }
+
+    .justify-center {
+      justify-content: center;
+    }
+
+    .space-between {
+      justify-content: space-between;
+    }
+
+    .uppercase {
+      text-transform: uppercase;
+    }
+
+    .semibold {
+      font-weight: bolder;
+    }
+
+    .mx-2 {
+      margin-left: 100px;
+      margin-right: 40px;
+    }
+
+    .my-2 {
+      margin: 12px 0;
+    }
+
+    .flex-wrap {
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+  <header class="containerHeader">
+    <nav class="flex space-between">
+      <div class="left flex items-center">
+        <ul class="flex items-center justify-center uppercase semibold">
+          <li><a href="#men">Men</a></li>
+          <li><a href="#women">Women</a></li>
+          <li><a href="#kids">Kids</a></li>
+          <li><a href="#home-living">Home and Living</a></li>
+          <li><a href="#beauty">Beauty</a></li>
+          <li><a href="#studio">Studio</a></li>
+        </ul>
+      </div>
+      <div class="right flex items-center">
+        <input class="search desktop-searchBar" placeholder="Search for products, brands and more">
+        <div class="rightBox">
+          <div class="profile mx-2">Profile</div>
+          <div class="wishlist mx-2">WishList</div>
+          <div class="bag mx-2">Orders</div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="container section1">
+    <img class="homeImg" src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/1f3a3fb326fae2bd.jpg?q=20" alt="Fashion Sale 1">
+    <img class="homeImg" src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/13/e34b394c-36b1-4774-8639-5aeb2c5716121652442642122-DK-TSHIRT-67--1-.gif" alt="Fashion Sale 2">
+    <img class="homeImg" src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/7/1e599d37-1ed6-4e39-9057-ffb4065173b51651897264796-Unbelievable-Deals.jpg" alt="Unbelievable Deals">
+  </section>
+  <section class="container section1 flex flex-wrap">
+    <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/5d1b7ad3-c3ed-4ef9-a654-18231743d3cd1651484798059-Anouk-Inddus.jpg" alt="Anouk Inddus">
+    <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/f7575784-edbf-411f-acc0-51891ea7f4331651484798329-Inddus-_Varanga.jpg" alt="Inddus Varanga">
+    <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/ce40419d-6408-404e-9320-96e41aee1b791651484798300-Hrx-_Puma_-_More.jpg" alt="Hrx Puma">
+    <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/44192c45-7393-4ede-a926-11f30b0b92a51651484798036-All.jpg" alt="All Brands">
+    <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/764761e7-c505-459e-92a2-6c4387f9e2511651484798319-Hush_Puppies-_Arrow.jpg" alt="Hush Puppies Arrow">
+    <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/2f424664-e746-4af1-b0e1-366ccb0f2c681651484798552-Red_Tape.jpg" alt="Red Tape">
+    <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_140,c_limit,fl_progressive,dpr_2.0/assets/images/2022/5/2/a802fc48-8f5b-4d69-97ab-e6a3cf3fb70c1651484798800-USPA-_Flying_Machine.jpg" alt="USPA Flying Machine">
+    <img class="homeImg" src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/1020516546e47eb8.jpeg?q=2" alt="Fashion Sale 3">
+  </section>
+  <section class="container section1">
+    <img class="homeImg" src="https://rukminim1.flixcart.com/fk-p-flap/1600/140/image/c0b62e6c3d7b6203.jpg?q=20" alt="Special Offers">
+  </section>
+  <section class="tall">
+    <!-- Optional content can be added here -->
+  </section>
+  <footer>
+    <div class="top">
+      <a href="#top">Back to Top</a>
+    </div>
+    <div class="customer-footer">
+      <div class="cust1">
+        <p class="cust-first">Get to Know Us</p>
+        <p class="cust-Second">Career</p>
+        <p class="cust-Second">Blog</p>
+        <p class="cust-Second">About Myntra</p>
+        <p class="cust-Second">Investor Relations</p>
+        <p class="cust-Second">Myntra Devices</p>
+        <p class="cust-Second">Myntra Service</p>
+      </div>
+      <div class="cust1">
+        <p class="cust-first">Customer Service</p>
+        <p class="cust-Second">Help Center</p>
+        <p class="cust-Second">Returns</p>
+        <p class="cust-Second">Order Tracking</p>
+        <p class="cust-Second">Shipping Information</p>
+        <p class="cust-Second">FAQs</p>
+      </div>
+      <div class="cust1">
+        <p class="cust-first">Policies</p>
+        <p class="cust-Second">Privacy Policy</p>
+        <p class="cust-Second">Terms of Use</p>
+        <p class="cust-Second">Accessibility</p>
+        <p class="cust-Second">Cookie Policy</p>
+      </div>
+      <div class="cust1">
+        <p class="cust-first">Follow Us</p>
+        <p class="cust-Second">Facebook</p>
+        <p class="cust-Second">Twitter</p>
+        <p class="cust-Second">Instagram</p>
+        <p class="cust-Second">LinkedIn</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
